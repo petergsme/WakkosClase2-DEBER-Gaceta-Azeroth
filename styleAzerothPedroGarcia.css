@@ -5,8 +5,12 @@ body {
   color: #1a2c4e;
   background-color: #f5e6d3;
   margin: 0 auto;
+}
+
+main {
   padding: 0 20px;
   max-width: 1200px;
+  margin: 0 auto; /*Sirve para centrar el contenido verticalmente */
 }
 
 h1,
