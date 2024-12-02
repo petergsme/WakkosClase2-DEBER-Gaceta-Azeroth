@@ -1,0 +1,118 @@
+/* Clases generales, selectores de elemento */
+
+body {
+  font-family: Arial, Verdana, sans-serif;
+  color: #1a2c4e;
+  background-color: #f5e6d3;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1200px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+strong {
+  color: #c0a060;
+  font-family: Georgia, Garamond, serif;
+}
+
+/* Tamaños de fuente para los distintos textos del documento */
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+small {
+  font-size: 0.875rem;
+}
+
+/* Estilos para ENLACES */
+a {
+  color: #1a3c8c;
+  text-decoration: none; /* Quita el subrayado del enlace */
+  transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out; /* Transición */
+}
+
+a:hover {
+  color: #c0a060; /* Cambio de color al hacer hover */
+  text-decoration: underline; /* Vuelve a aparecer subrayado durante el hover */
+}
+
+/* Estilos para IMÁGENES */
+img {
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  object-fit: fill;
+}
+
+img:hover {
+  transform: scale(1.02); /* Amplia la imagen al hacer hover */
+}
+
+/* Espaciado de los distintos bloques del documento */
+header {
+  padding: 2rem 0;
+}
+
+section {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+}
+
+article {
+  margin-bottom: 2rem;
+}
+
+/* Bloques específicos */
+.newsCards {
+  background-color: #ffffff;
+  padding: 1.25rem;
+  border: 1px solid rgba(192, 160, 96, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+header {
+  background: linear-gradient(45deg, #1a2c4e, #2a3c5e);
+  color: #c0a060;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* Clases de utilidad: colores de texto */
+.color-red {
+  color: #8c1616;
+}
+
+.color-blue {
+  color: #1a3c8c;
+}
+
+.color-grey {
+  color: #707070;
+}
